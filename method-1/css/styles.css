@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'roboto-regular';
+  src: url(fonts/roboto-regular.ttf);
+}
+  
+@font-face {
+  font-family: 'roboto-medium';
+  src: url(fonts/roboto-medium.ttf);
+}
+  
+@font-face {
+  font-family: 'roboto-thin';
+  src: url(fonts/roboto-thin.ttf);
+}
+  
+body {
+  font-family: 'roboto-regular';
+  font-size: 14px; 
+}
+
+.myCircle {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	background-color: #CCC;
+	display: inline-block;
+}
+
+.color-list {
+	margin: 9px 0;
+}
+
+.color-name {
+	width: 50px;
+	cursor: pointer;
+	display: inline-block;
+	background-color: #F0F0F0;
+	text-align: center;
+	height: 27px;
+	line-height: 27px;
+	border-radius: 3px;
+}
+
+.redColor {
+	background-color: red;
+}
+
+.greenColor {
+	background-color: green;
+}
+
+.blueColor {
+	background-color: blue;
+}

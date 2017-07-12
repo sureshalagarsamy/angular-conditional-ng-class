@@ -49,3 +49,11 @@ angular.module('myApp', []).controller('myCtrl', function($scope) {
 ```html
 <span class="myCircle" ng-class="{green:'greenColor', red:'redColor', blue:'blueColor'}[myCircleColor]"></span>
 ```
+
+### Method-3
+
+If we need to check only two conditions like ```true``` ```false``` then use this.
+
+```html
+<span ng-class="(status == true) ? 'enabled' : 'disabled'"></span>
+```

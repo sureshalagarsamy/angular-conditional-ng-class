@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>AngularJS sample application</title>
+	<link rel="shortcut icon" href="images/icon.png" />
+	<link rel="stylesheet" href="css/styles.css">
+	
+	<script src="js/angular-1.5.4.js"></script>
+	<script src="js/script.js"></script>
+</head>
+
+<body ng-app="myApp">
+	<div ng-controller="myCtrl">
+		<div class="color-list">
+			<span class="color-name" ng-click="changeColor('R')">red</span>
+			<span class="color-name" ng-click="changeColor('G')">green</span>
+			<span class="color-name" ng-click="changeColor('B')">blue</span>
+		</div>
+		<span class="myCircle" ng-class="{green:'greenColor', red:'redColor', blue:'blueColor'}[myCircleColor]"></span>
+	</div>
+</body>
+
+</html>

@@ -39,3 +39,9 @@ angular.module('myApp', []).controller('myCtrl', function($scope) {
 	$scope.myCircleColor = "green";
 });
 ```
+
+### Method-2
+
+```html
+<span class="myCircle" ng-class="{green:'greenColor', red:'redColor', blue:'blueColor'}[myCircleColor]"></span>
+```

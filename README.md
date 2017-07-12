@@ -16,7 +16,11 @@
 			<span class="color-name" ng-click="changeColor('G')">green</span>
 			<span class="color-name" ng-click="changeColor('B')">blue</span>
 		</div>
-		<span class="myCircle" ng-class="{'greenColor': myCircleColor == 'green' , 'redColor': myCircleColor == 'red', 'blueColor': myCircleColor == 'blue'}"></span>
+		<span class="myCircle" 
+        		ng-class="{'greenColor': myCircleColor == 'green' , 
+				   'redColor': myCircleColor == 'red', 
+				   'blueColor': myCircleColor == 'blue'}">
+        	</span>
 	</div>
 </body>
 ```
